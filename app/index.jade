@@ -1,0 +1,21 @@
+extends _layout
+
+block title
+  title= name
+
+block metas
+  meta(name='keywords', content='animation, Canvas, JavaScript')
+  meta(name='description', content=description)
+
+block styles
+  link(rel='stylesheet', href='./css/config.css')
+
+block body
+  section#main(role='main')
+    canvas#canvas(width='400', height='400')
+
+
+block scripts
+  script(src='./js/vendor/require-2.1.5.js', charset='UTF-8')
+  script(src='./js/config.js', charset='UTF-8')
+  script(src='./js/main.js', charset='UTF-8')

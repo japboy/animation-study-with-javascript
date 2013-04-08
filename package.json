@@ -1,0 +1,42 @@
+{
+  "name": "animation-study-with-js",
+  "description": "My HTML 5 animation study project",
+  "version": "0.0.0",
+  "author": {
+    "name": "Yu I.",
+    "email": "yu.inao@facebook.com"
+  },
+  "licenses": [
+    {
+      "type": "Unlicense",
+      "url": "http://unlicense.org"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": ">=0.4.0",
+    "grunt-contrib-clean": ">=0.4.0",
+    "grunt-contrib-coffee": ">=0.4.0",
+    "grunt-contrib-connect": ">=0.1.1",
+    "grunt-contrib-copy": ">=0.4.0",
+    "grunt-contrib-jade": ">=0.4.0",
+    "grunt-contrib-jshint": ">=0.1.1",
+    "grunt-contrib-livereload": ">=0.1.0",
+    "grunt-contrib-requirejs": ">=0.4.0",
+    "grunt-contrib-stylus": ">=0.4.0",
+    "grunt-contrib-uglify": ">=0.1.1",
+    "grunt-coffeelint": ">=0.0.6",
+    "grunt-css": ">=0.5.4",
+    "grunt-csso": ">=0.4.1",
+    "grunt-html": ">=0.3.3",
+    "grunt-jsonlint": ">=1.0.0",
+    "grunt-mocha": ">0.2",
+    "grunt-reduce": ">=0.1.6",
+    "grunt-regarde": ">0.1",
+    "grunt-simple-mocha": ">0.3",
+    "chai": ">1.5",
+    "marked": ">=0.2.8",
+    "sinon": ">1.6"
+  }
+}
